@@ -9,8 +9,8 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Tweets clone" />
-        <ProjectBox projectPhoto={quizzImage} projectName="Quizz JS" />
+        <ProjectBox projectPhoto={WigglesImage} projectName="Tweet clone" />
+        <ProjectBox projectPhoto={quizzImage} projectName="quizz" />
         <ProjectBox projectPhoto={TodoListImage} projectName="TodoList" />
       </div>
 
