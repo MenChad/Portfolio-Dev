@@ -11,7 +11,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     quizzDesc:"Quizz Javascript clone",
     quizzGithub:"https://github.com/MenChad/quizz",
-    quizzWebsite:"https://menchad.github.io/quizz/",
+    quizzWebsite:"https://menchad.github.io/quizz",
     
     TodoListDesc:"first to do list in javascript",
     TodoListGithub:"https://github.com/MenChad/TodoList",
