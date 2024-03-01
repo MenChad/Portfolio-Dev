@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectBox from './ProjectBox';
 import quizzImage from '../images/quizzImage.png';
 import cloneMorpionImage from '../images/cloneMorpionImage.png';
-import WigglesImage from '../images/WigglesImage.png';
 
 const Projects = () => {
   return (
