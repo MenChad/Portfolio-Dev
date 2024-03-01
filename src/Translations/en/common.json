@@ -1,0 +1,6 @@
+{
+	"common:app.title": "react-i18next translation example",
+	"common:language-selector.label": "Select your language:",
+	"common:language-selector.languages.en": "english",
+	"common:language-selector.languages.fr": "french"
+}

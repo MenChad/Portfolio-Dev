@@ -5,10 +5,6 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
-
     quizzDesc:"Quizz Javascript clone",
     quizzGithub:"https://github.com/MenChad/quizz",
     quizzWebsite:"https://menchad.github.io/quizz",

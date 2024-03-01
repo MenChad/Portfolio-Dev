@@ -9,7 +9,6 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Tweet clone" />
         <ProjectBox projectPhoto={quizzImage} projectName="quizz" />
         <ProjectBox projectPhoto={cloneMorpionImage} projectName="clone_morpion_react" />
       </div>
