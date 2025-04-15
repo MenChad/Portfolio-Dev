@@ -12,6 +12,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     clone_morpion_reactDesc:"This is a tuto of the tic tac toe game using react ",
     clone_morpion_reactGithub:"https://github.com/MenChad/clone_morpion_react",
     clone_morpion_reactWebsite:"https://clone-morpion-react.vercel.app/",
+
+    clone_morpion_reactDesc:"This is a design for a travel agency in html and css",
+    clone_morpion_reactGithub:"https://github.com/MenChad/plat-decouverte",
+    clone_morpion_reactWebsite:"https://menchad.github.io/plat-decouverte/"
   }
 
   let show ='';

@@ -11,13 +11,11 @@ import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import React from "react";
-import {useTranslation} from "react-i18next";
 
 
 function App() {
   const[Loading,SetLoading]=useState(true);
   // @ts-ignore
-  const {t} = useTranslation("common");
 
   useEffect(()=>{
     SetLoading(true)

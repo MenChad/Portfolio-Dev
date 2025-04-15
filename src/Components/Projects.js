@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectBox from './ProjectBox';
 import quizzImage from '../images/quizzImage.png';
 import cloneMorpionImage from '../images/cloneMorpionImage.png';
+import agencyImage from '../images/agencyImage.PNG';
 
 const Projects = () => {
   return (
@@ -10,6 +11,8 @@ const Projects = () => {
       <div className='project'>
         <ProjectBox projectPhoto={quizzImage} projectName="quizz" />
         <ProjectBox projectPhoto={cloneMorpionImage} projectName="clone_morpion_react" />
+        <ProjectBox projectPhoto={agencyImage} projectName="plat-decouverte" />
+
       </div>
 
     </div>
