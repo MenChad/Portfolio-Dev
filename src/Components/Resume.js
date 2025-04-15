@@ -4,7 +4,7 @@ import pdf from "../Resume.pdf";
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 const Resume = () => {
@@ -23,7 +23,7 @@ const Resume = () => {
           <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
       </Document>
 
-      <a href={pdf} target='_blank' download="Tarik_Resume">
+      <a href={pdf} target='_blank' rel="noopener noreferrer" download="Tarik_Resume">
         <button className='downloadCV' type='button'>
           <h3><BsDownload/>&nbsp; Download CV</h3>
         </button>
