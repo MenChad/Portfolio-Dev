@@ -5,15 +5,15 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    quizzDesc:"Quizz Javascript clone",
+    quizzDesc:"un quizz Javascript sur le thème de la programmation",
     quizzGithub:"https://github.com/MenChad/quizz",
     quizzWebsite:"https://menchad.github.io/quizz",
 
-    plat_decouverteDesc:"a travel agency design website in html and css ",
+    plat_decouverteDesc:"une agence de voyage designée en html et css ",
     plat_decouverteGithub:"https://github.com/MenChad/plat_decouverte",
     plat_decouverteWebsite:"https://menchad.github.io/plat_decouverte/",
     
-    clone_morpion_reactDesc:"This is a tuto of the tic tac toe game using react ",
+    clone_morpion_reactDesc:"un clone du jeu morpion en react",
     clone_morpion_reactGithub:"https://github.com/MenChad/clone_morpion_react",
     clone_morpion_reactWebsite:"https://clone-morpion-react.vercel.app/",
 

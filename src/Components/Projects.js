@@ -7,7 +7,7 @@ import platDecouverteImage from '../images/platDecouverteImage.png';
 const Projects = () => {
   return (
     <div>
-      <h1 className='projectHeading'>My <b>Projects</b></h1>
+      <h1 className='projectHeading'>Mes <b>Projets</b></h1>
       <div className='project'>
         <ProjectBox projectPhoto={quizzImage} projectName="quizz" />
         <ProjectBox projectPhoto={platDecouverteImage} projectName="plat_decouverte" />

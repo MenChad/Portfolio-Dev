@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from  "lottie-react";
-import SpaceBoy from "../LottieFiles/SpaceBoy.json";
+import Coder from '../LottieFiles/coder.json';
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
@@ -12,14 +12,14 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>TARIK MADI</b></h1>
+          <h1>Bienvenue</h1>
+          <h1>JE SUIS <b>TARIK MADI</b></h1>
           <Typed/>   
         </div>
 
         <Lottie 
           className="illustration" 
-          animationData={SpaceBoy} 
+          animationData={Coder} 
           loop={true} 
         />
         
@@ -29,14 +29,13 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'> <b>introduction</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>JS</b> and know a bit of <b>Swift</b> and i have worked on a few 
-            projects in <b>POO</b> development.<br />
-            I plan to learn <b>Next.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+          J’aime le processus qui consiste à transformer une idée brute en un site web ou un produit 
+          qui a un impact réel sur la vie des gens.  
+          Je souhaite travailler sur des projets qui me stimulent en tant que développeur et dont je peux être fier.<br /><br />
+          Je maîtrise le <b>JavaScript</b>, j’ai quelques notions de <b>Swift</b> et j’ai travaillé sur plusieurs projets en 
+          <b> programmation orientée objet (POO)</b>.<br />
+          J’ai pour objectif de maîtriser <b>Next.js</b> et <b>TypeScript</b> prochainement.<br /><br />
+          Et aussi, j’adore le <b>café</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>        
           </p>
         </div>
         <Tilt>
