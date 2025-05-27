@@ -8,6 +8,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     freelanceGithub:"https://github.com/MenChad/freelance",
     freelanceWebsite:"https://freelance-o7g3.vercel.app/fr",
 
+
     rando_sudDesc:"un site vitrine pour une agence de randonnée dans le sud de la France",
     rando_sudGithub:"https://github.com/MenChad/rando_sud",
     rando_sudWebsite:"https://menchad.github.io/rando_sud/",
@@ -15,6 +16,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     plat_decouverteDesc:"une agence de voyage designée en html et css ",
     plat_decouverteGithub:"https://github.com/MenChad/plat_decouverte",
     plat_decouverteWebsite:"https://menchad.github.io/plat_decouverte/",
+
+    todolist_react19Desc:"une todo list en react",
+    todolist_react19Github:"https://github.com/MenChad/todolist_react19",
+    todolist_react19Website:"https://todolist-react19.vercel.app/",
     
     clone_morpion_reactDesc:"un clone du jeu morpion en react",
     clone_morpion_reactGithub:"https://github.com/MenChad/clone_morpion_react",
