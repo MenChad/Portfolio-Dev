@@ -17,6 +17,12 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     plat_decouverteGithub:"https://github.com/MenChad/plat_decouverte",
     plat_decouverteWebsite:"https://menchad.github.io/plat_decouverte/",
 
+    api_citationDesc:"un créateur de citation avec nextjs",
+    api_citationGithub:"https://github.com/MenChad/api_citation",
+    api_citationWebsite:"https://citation-lovat.vercel.app/",
+
+
+
     todolist_react19Desc:"une todo list en react",
     todolist_react19Github:"https://github.com/MenChad/todolist_react19",
     todolist_react19Website:"https://todolist-react19.vercel.app/",
