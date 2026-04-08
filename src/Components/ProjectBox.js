@@ -17,9 +17,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     plat_decouverteGithub:"https://github.com/MenChad/plat_decouverte",
     plat_decouverteWebsite:"https://menchad.github.io/plat_decouverte/",
 
-    api_citationDesc:"un créateur de citation avec nextjs",
-    api_citationGithub:"https://github.com/MenChad/api_citation",
-    api_citationWebsite:"https://citation-lovat.vercel.app/",
+    api_citationDesc:"a restaurant design website using bootstrap ",
+    api_citationGithub:"https://github.com/MenChad/restaurant",
+    api_citationWebsite:"https://menchad.github.io/restaurant/",
 
 
 
